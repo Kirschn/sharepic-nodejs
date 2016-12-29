@@ -1,0 +1,24 @@
+{
+	"hostname": "localhost"
+	"mysql": {
+		"host": "localhost",
+		"username": "root",
+		"password": "fuck",
+		"database": "picdrop",
+	},
+	"redis": {
+		"host": "localhost",
+		"prefix": "sharepic_"
+	},
+	"enabled_modules": {
+		"viewer": {
+			"file": "viewer.js",
+			"expres-mapping": "/"
+		},
+		"uploader": {
+			"file": "uploader.js"
+			"express-mapping": "/"
+		}
+	}
+
+}
